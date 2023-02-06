@@ -1,0 +1,20 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  color: white;
+  padding: 5px 30px;
+  @media only screen and (max-width: 620px) {
+    padding: 5px 10px;
+    position: relative;
+    top: -15px;
+  }
+  .WrapperMenu {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    @media only screen and (max-width: 620px) {
+      gap: 20px;
+    }
+  }
+}

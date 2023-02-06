@@ -1,0 +1,21 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  img {
+    width: 15px;
+    height: 15px;
+    @media only screen and (max-width: 620px) {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  .Container {
+    display: flex;
+    gap: 10px;
+    @media only screen and (max-width: 620px) {
+      gap: 10px;
+    }
+  }
+}
