@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.control-dots span::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 1px;
+  border-radius: 4px;
+  background-color: #fff;
+  bottom: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.control-dots span:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
