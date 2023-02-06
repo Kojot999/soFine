@@ -47,9 +47,9 @@ export const TILES = [
     name: "care",
   },
   {
-    title: " DESING",
-    img: Images.desing,
-    name: "desing",
+    title: " DESIGN",
+    img: Images.design,
+    name: "design",
   },
   {
     title: " BLEND",

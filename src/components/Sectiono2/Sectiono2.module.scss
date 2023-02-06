@@ -19,7 +19,7 @@
   grid-auto-flow: row;
   grid-template-areas:
     "mark care care"
-    "desing blend blend"
+    "design blend blend"
     "kolor kolor pure";
   img {
     width: 100%;
@@ -156,8 +156,8 @@
   }
 }
 
-.desing {
-  grid-area: desing;
+.design {
+  grid-area: design;
 
   .wrapper {
     display: flex;

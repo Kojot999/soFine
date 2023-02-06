@@ -11,7 +11,7 @@ import ytWhite from "./yt_WHITE.svg";
 import slide1 from "./slide1-big-min.jpg";
 import slide2 from "./slide2-big-min.jpg";
 import care from "./01_care-min.jpg";
-import desing from "./02_design-min.jpg";
+import design from "./02_design-min.jpg";
 import blend from "./03_blend_1-min.jpg";
 import kolor from "./04_koloryzacja-min.jpg";
 import pure from "./05_so_pure-min.jpg";
@@ -43,7 +43,7 @@ export const Images = {
   slide1,
   slide2,
   care,
-  desing,
+  design,
   blend,
   kolor,
   pure,
