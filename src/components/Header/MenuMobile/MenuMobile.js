@@ -4,7 +4,7 @@ import { Images } from "../../../assets";
 
 export const MenuMobile = () => {
   return (
-    <div className={style.menuTriger}>
+    <div className={style.menuTrigger}>
       <p>MENU</p>
       <div className={style.menu}>
         {MENU.map(({ path, name }) => (

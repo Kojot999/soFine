@@ -6,7 +6,7 @@ export const Sectiono2 = () => {
   return (
     <div className={style.container}>
       {TILES.map(({ title, img, name }) => (
-        <div key={title} className={style[name]}>
+        <div key={title} className={`${style[name]} ${style.zoom}`}>
           {img === "" ? null : <img className={style.image} alt="" src={img} />}
           <div className={style.wrapper}>
             <div className={style.title}>

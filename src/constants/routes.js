@@ -4,7 +4,6 @@ export const MENU = [
   {
     name: "Nowości",
   },
-
   {
     name: "Produkty",
   },
